@@ -1,3 +1,12 @@
 .portada {
     width: "50px";
 }
+
+section {
+    border: "1px solid black";
+    border-radius: "8px";
+    padding: "20px";
+    width: "500px";
+    background-color: "beige";
+    font-family: "cursive";
+}
