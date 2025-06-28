@@ -1,6 +1,15 @@
 import OwnerCard from "../components/Owner-card"
-export default function Owner(){
+import Favs from "../components/Owner-movies"
+import OwnerHeader from "../components/Owner-header"
+import OwnerFooter from "../components/Owner-footer"
+export default function Owner() {
     return (
-        <OwnerCard/>
+        <div>
+            <OwnerHeader />
+            <br /> <br />
+            <OwnerCard /> <br />
+            <Favs/> <br />
+            <OwnerFooter />
+        </div>
     )
 }
